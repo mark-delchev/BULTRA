@@ -3,7 +3,7 @@ from stemming import stem_bulgarian_words
 from numerical_representation import create_numerical_representation
 
 # Load Bulgarian news article
-with open('IvanVazov1.txt', 'r', encoding='utf-8') as f:
+with open('data.txt', 'r', encoding='utf-8') as f:
     text = f.read()
 
 
