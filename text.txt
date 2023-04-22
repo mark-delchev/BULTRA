@@ -1,0 +1,1 @@
+This is a sample text. Please dont hurt me. I will eat pancakes. Rick is my best friend. Help me. To address this issue, you can add a counter variable to keep track of the number of iterations in the loop, and set a maximum number of iterations that the loop can run for before breaking out of it. 
