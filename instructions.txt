@@ -1,0 +1,19 @@
+To train a language model with a text file containing tokenized sentences in Bulgarian, you can follow these steps:
+
+    Preprocess the data: The first step is to preprocess the text data to make it suitable for training a language model. This involves tasks such as tokenization, lowercasing, and removing punctuation.
+
+    Split the data into train, validation, and test sets: Split the preprocessed data into train, validation, and test sets. The train set is used to train the language model, the validation set is used to tune hyperparameters and to avoid overfitting, and the test set is used to evaluate the performance of the trained model.
+
+    Choose a deep learning framework: There are several deep learning frameworks you can choose from to train a language model, such as TensorFlow, PyTorch, and Keras. Choose one that you are comfortable with.
+
+    Define the architecture of the language model: The architecture of the language model determines how it will learn to predict the next word in a sentence. You can choose from different types of architectures, such as Recurrent Neural Networks (RNNs), Long Short-Term Memory (LSTM) networks, or Transformer models.
+
+    Train the language model: Train the language model using the preprocessed data and the chosen architecture. The training process involves iterating through the training set, computing the loss, and adjusting the model's parameters to minimize the loss.
+
+    Evaluate the performance of the language model: Evaluate the performance of the trained language model on the test set. You can measure the model's performance using metrics such as perplexity or accuracy.
+
+    Fine-tune the language model (optional): If the performance of the language model is not satisfactory, you can fine-tune it by tweaking the architecture or hyperparameters and retraining it on the data.
+
+    Use the language model for downstream tasks: Once you have a trained language model, you can use it for various downstream tasks such as text generation, sentiment analysis, or machine translation.
+
+Note: Training a language model requires significant computational resources, and it may take several hours or even days to train a model on a large dataset.
